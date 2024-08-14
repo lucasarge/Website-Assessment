@@ -1,9 +1,26 @@
-.hero-image {
+.hero-image-home, .hero-image-geothermal, 
+.hero-image-history, .hero-image-school {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    background-position: center;
-    width: 100%;
+}
+.hero-image-home {
+    background-image: url(images/cropped_hero.jpg);
+}
+.hero-image-school {
+    background-image: url(images/te-puia-school.PNG);
+}
+.hero-image-geothermal {
+    background-image: url(images/cropped-hero-hot.jpg);
+}
+.hero-image-history {
+    background-image: url(images/0000879_experience-te-puia.jpeg);
+}
+
+body, html {
+    height: 100%;
 }
 
 .hero-text {
@@ -18,16 +35,62 @@
     left: 50px;
 }
 
+h1 {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 20px;
+    color: black;
 }
 
 .nav-item {
     text-align: center;
 }
 
-img {
-    width: 100%;
+
+
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    color: rgb(248, 234, 228);
+    text-decoration: none;
+}
+
+.footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    color: rgb(248, 234, 228);
+    background-color: rgb(4,130,143);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 3 / 6; }
+    .div3 { grid-area: 3 / 1 / 5 / 2; }
+    .div4 { grid-area: 3 / 2 / 5 / 3; }
+    .div5 { grid-area: 3 / 3 / 5 / 4; }
+    .div6 { grid-area: 3 / 4 / 5 / 5; }
+    .div7 { grid-area: 3 / 5 / 5 / 6; }
+    .div8 { grid-area: 5 / 1 / 6 / 6; }
+
+.top {
+    text-align: center;
+}
+
+.div2 {
+    text-align: center;
+}
+
+.contact {
+    text-align: center; 
 }
