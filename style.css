@@ -69,6 +69,13 @@ background-color: rgb(4,130,143);
     color: rgb(248, 234, 228);
     text-decoration: none;
 }
+.selected {
+    font-weight: bolder;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color:white;
+}
 
 /*
   _______               _____      _                   
@@ -97,6 +104,24 @@ background-color: rgb(4,130,143);
 }
 .info {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+  _______ _                      _____      _                       
+ |__   __| |                    / ____|    | |                      
+    | |  | |__  _ __ ___  ___  | |     ___ | |_   _ _ __ ___  _ __  
+    | |  | '_ \| '__/ _ \/ _ \ | |    / _ \| | | | | '_ ` _ \| '_ \ 
+    | |  | | | | | |  __/  __/ | |___| (_) | | |_| | | | | | | | | |
+    |_|  |_| |_|_|  \___|\___|  \_____\___/|_|\__,_|_| |_| |_|_| |_|
+*/
+.three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    padding: 2%;
+}
+.card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*
@@ -140,14 +165,21 @@ a {
 */
 body, html {
     height: 100%;
+    margin: 0;
 }
 
 img {
     width: 100%;
 }
-
+video {
+    width: 100%;    
+}
 hr {
     border-style: groove;
+}
+.header-paragraph {
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*
