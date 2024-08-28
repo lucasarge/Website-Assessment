@@ -36,7 +36,7 @@
 .hero-text-sub {
     font-size: 1rem;
     top: 455px;
-    left: 915px;
+    left: 850px;
 }
 .hero-text-title {
     font-size: 8rem;
@@ -89,7 +89,6 @@ background-color: rgb(4,130,143);
     display: grid;
     gap: 5%;
     padding: 2%;
-    background-color: white;
 }
 .two-column-centre {
     grid-template-columns: 1fr 1fr;
@@ -166,6 +165,7 @@ a {
 body, html {
     height: 100%;
     margin: 0;
+    background-color: rgb(255, 246, 235);
 }
 
 img {
@@ -180,6 +180,12 @@ hr {
 .header-paragraph {
     padding: 2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.full-image {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 0% 2% 0% 2%;
 }
 
 /*
