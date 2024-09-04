@@ -74,6 +74,10 @@ background-color: rgb(4,130,143);
 
 .selected {
     font-weight: bolder;
+    color: rgb(248, 234, 228);
+}
+.nav-link {
+    color: rgb(248, 234, 228);
 }
 .nav-link:hover {
     text-decoration: underline;
@@ -132,6 +136,13 @@ background-color: rgb(4,130,143);
 .card {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.course-info {
+    text-align: center;
+    padding: 10px 0px;
+}
+.course-link {
+    color: rgb(4, 130, 143);
+}
 
 /*
   _______        _   
@@ -166,7 +177,7 @@ p {
 a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
-    color: rgb(248, 234, 228);
+
     text-decoration: none;
 }
 
